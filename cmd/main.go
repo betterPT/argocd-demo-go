@@ -12,10 +12,10 @@ const PORT = 8080
 func main() {
 	startServer(handler)
 }
-
+ 
 func startServer(handler func(http.ResponseWriter, *http.Request)){
 	http.HandleFunc("/", handler)
-	log.Printf("starting server...")
+	log.Printf("starting server now...")
 	http.ListenAndServe(fmt.Sprintf(":%d", PORT), nil)
 }
 
