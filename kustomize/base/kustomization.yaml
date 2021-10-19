@@ -8,4 +8,4 @@ namespace: default
 images:
 - name: hello-gitops
   newName: betterptdev/go-app
-  newTag: ce5ada1212b0b8cb11539078564066c0874b6083
+  newTag: 2141268d81d276d788dd9c358f767fc04df26712
